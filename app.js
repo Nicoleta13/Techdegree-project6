@@ -1,4 +1,5 @@
     let missed  = 0;
+    
     const overlay = document.querySelector('#overlay');
     const keyboard = document.getElementById('qwerty');
     const startButton = document.querySelector('.btn__reset');
