@@ -5,7 +5,7 @@
     const ul = document.querySelector('#phrase ul');
     const letters = document.getElementsByClassName('letter');
     const lives = document.querySelectorAll('.tries img');
-    const show = document.querySelectorAll('.show');
+    const show = document.getElementsByClassName('show');
     const title = document.querySelector('.title');
     const keyrow = document.querySelectorAll('.keyrow button');
 
@@ -55,7 +55,7 @@
       const buttonClicked = button.target;
       for(let i = 0; i < letters.length; i += 1) {
         if (buttonClicked.textContent === letters[i].textContent) {
-          letters[i].className = 'show';
+          letters[i].classList.add('show');
           const letterMatched = letters[i];
           matched = true;
         }
