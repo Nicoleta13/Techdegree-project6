@@ -1,5 +1,4 @@
     let missed  = 0;
-    
     const overlay = document.querySelector('#overlay');
     const keyboard = document.getElementById('qwerty');
     const startButton = document.querySelector('.btn__reset');
@@ -11,7 +10,7 @@
     const keyrow = document.querySelectorAll('.keyrow button');
 
     const phrases = [
-      "start somewhere",
+      "conquer from within",
       "never give up",
       "work hard",
       "have fun",
