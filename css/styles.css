@@ -191,13 +191,6 @@ button {
      background: var(--color-neutral-light);
      border-radius: 5px;
    }
-
-
-   button {
-     margin: 5px;
-     padding: .3rem .8rem;
-     font-size: var(--font-size-medium);
-   }
  }
 
 
@@ -214,10 +207,6 @@ button {
      height: 60px;
      width: 60px;
    }
-
-   button {
-     padding: .4rem .9rem;
-   }
  }
 
  @media (min-width: 1024px) {
@@ -225,6 +214,4 @@ button {
      height: 65px;
      width: 65px;
    }
-
-
  }
