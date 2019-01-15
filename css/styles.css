@@ -12,7 +12,8 @@
   --color-keys: #37474F;
   --color-keys-light: #E5E5E5;
   --font-size-large: 60px;
-  --font-size-medium: 20px;
+  --font-size-medium: 40px;
+  --font-size-small: 20px;
   --transition: all .2s ease-in-out;
 }
 
@@ -39,13 +40,13 @@ h2 {
   margin-top: 15px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-medium);
 }
 
 button {
   margin: 3px;
   border: 1px solid transparent;
-  padding: .1rem .5rem;
+  padding: .2rem .7rem;
   color: var(--color-keys);
   font-size: var(--font-size-small);
   background-color: var(--color-keys-light);
@@ -181,9 +182,9 @@ button {
      margin: auto;
    }
 
-   h2 {
+   /* h2 {
      font-size: var(--font-size-medium);
-   }
+   } */
 
    .letter {
      font-size: var(--font-size-medium);
@@ -199,7 +200,7 @@ button {
 
    button {
      margin: 5px;
-     padding: .2rem .7rem;
+     padding: .3rem .8rem;
      font-size: var(--font-size-medium);
    }
  }
@@ -218,6 +219,10 @@ button {
      height: 60px;
      width: 60px;
    }
+
+   button {
+     padding: .4rem .9rem;
+   }
  }
 
  @media (min-width: 1024px) {
@@ -225,4 +230,6 @@ button {
      height: 65px;
      width: 65px;
    }
+
+
  }
