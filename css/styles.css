@@ -26,6 +26,7 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   display: flex;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -175,10 +176,4 @@ button {
 
 .lose a {
   color: var(--color-lose);
-}
-
-
-
-@media (min-width: 320px) {
-  width:
 }
