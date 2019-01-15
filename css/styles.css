@@ -13,7 +13,7 @@
   --color-keys-light: #E5E5E5;
   --font-size-large: 60px;
   --font-size-medium: 30px;
-  --font-size-small: 5px;
+  --font-size-small:15px;
   --transition: all .2s ease-in-out;
 }
 
@@ -91,7 +91,7 @@ button {
 }
 
 .space {
-  width: 15px;
+  width: 20px;
 }
 
 .show {
@@ -120,7 +120,7 @@ button {
 .chosen {
   background: var(--color-neutral);
   border-radius: 5px;
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-small);
   color: #FFFFFF;
 }
 
@@ -182,7 +182,6 @@ button {
      margin: auto;
    }
 
-
    .letter {
      font-size: var(--font-size-medium);
      height: 50px;
@@ -192,6 +191,10 @@ button {
      color: transparent;
      background: var(--color-neutral-light);
      border-radius: 5px;
+   }
+
+   .chosen {
+     font-size: var(--font-size-medium);
    }
 
 
