@@ -27,7 +27,7 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
 }
 
@@ -109,12 +109,12 @@ button {
 
 /* Keyboard */
 
-/* .keyrow {
+.keyrow {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-} */
+}
 
 
 .chosen {
