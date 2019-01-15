@@ -114,6 +114,8 @@ button {
 
 .keyrow {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -173,4 +175,10 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+
+
+
+@media (min-width: 320px) {
+  width:
 }
