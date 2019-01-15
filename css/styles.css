@@ -120,7 +120,6 @@ button {
 .chosen {
   background: var(--color-neutral);
   border-radius: 5px;
-  font-size: var(--font-size-small);
   color: #FFFFFF;
 }
 
