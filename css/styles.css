@@ -46,7 +46,7 @@ h2 {
 button {
   margin: 3px;
   border: 1px solid transparent;
-  padding: .3rem .8rem;
+  padding: .4rem .9rem;
   color: var(--color-keys);
   font-size: var(--font-size-small);
   background-color: var(--color-keys-light);
