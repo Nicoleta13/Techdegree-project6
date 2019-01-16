@@ -181,6 +181,12 @@ button {
      margin: auto;
    }
 
+   button {
+     margin: 4px;
+     padding: .6rem 1.1rem;
+     font-size: var(--font-size-medium);
+   }
+
    .letter {
      font-size: var(--font-size-medium);
      height: 50px;
@@ -203,13 +209,6 @@ button {
      font-size: var(--font-size-large);
    }
 
-   .letter {
-     height: 60px;
-     width: 60px;
-   }
- }
-
- @media (min-width: 1024px) {
    .letter {
      height: 65px;
      width: 65px;
