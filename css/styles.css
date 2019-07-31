@@ -193,7 +193,7 @@ button {
      width: 50px;
      padding: 10px 1px 0 1px;
      margin-right: 2px;
-     color: transparent;
+     /* color: transparent; */
      background: var(--color-neutral-light);
      border-radius: 5px;
    }
